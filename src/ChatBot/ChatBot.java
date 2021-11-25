@@ -1,4 +1,5 @@
 package ChatBot;
+
 import java.util.Scanner;
 
 public class ChatBot {
@@ -13,5 +14,15 @@ public class ChatBot {
         System.out.println("Please, remind me your name.");
         String user_name = s.nextLine();
         System.out.println("What a great name you have, " + user_name + '!');
+
+        // Ввод 3, 5, 7
+        System.out.println("""
+                Let me guess your age.
+                Enter remainders of dividing your age by 3, 5 and 7.""");
+        byte remainder3 = s.nextByte();
+        byte remainder5 = s.nextByte();
+        byte remainder7 = s.nextByte();
+        int age = (remainder3 * 70 + remainder5 * 21 + remainder7 * 15) % 105;
+        System.out.println("Your age is " + age + "; that's a good time to start programming!");
     }
 }
