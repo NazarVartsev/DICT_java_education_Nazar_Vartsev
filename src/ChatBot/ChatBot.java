@@ -31,5 +31,20 @@ public class ChatBot {
         for (int i = 0; i <= number_check; i++) {
             System.out.println(i + " !");
         }
+
+        // Тест
+        RandomTest test = new RandomTest();
+
+        // 1
+        test.whileTest(1, "test_answers_1");
+
+        // 2
+        test.whileTest(2, "test_answers_2");
+
+        // 3
+        test.whileTest(3, "test_answers_3");
+
+        // 4
+        test.whileTest(4, "test_answers_4");
     }
 }
