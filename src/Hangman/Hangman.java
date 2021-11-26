@@ -18,7 +18,7 @@ public class Hangman {
         System.out.println("Guess the word:");
         String out_answer = s.nextLine();
         int a_i = r.nextInt(3);
-        if (Objects.equals(wor.words_list[a_i], out_answer)) {
+        if (Objects.equals(wor.words_list[], out_answer)) {
             System.out.println("You survived!");
         } else {
             System.out.println("You lost!");
