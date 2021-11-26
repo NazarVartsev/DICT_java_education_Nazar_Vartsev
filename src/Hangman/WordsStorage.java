@@ -21,7 +21,7 @@ public class WordsStorage {
         for (int i = 0; i <= two_len_word_r; i++) {
             word_dash += dash;
         }
-        return word_dash_out = word.charAt(0) + word.charAt(1) + word_dash;
+        return word_dash_out = "" + word.charAt(0) + word.charAt(1) + word_dash;
     }
 
     String getWord() {
