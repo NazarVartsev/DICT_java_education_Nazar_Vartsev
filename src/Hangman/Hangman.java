@@ -3,6 +3,8 @@ package Hangman;
 import java.util.Objects;
 import java.util.Scanner;
 
+// Appdata 4 !!!
+
 public class Hangman {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
